@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Headings */
+  h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  h2, h3, h4, h5 {
+    color: #34495e;
+    margin-top: 20px;
+  }
+  
+  /* Main and Sections */
+  main, section {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Lists */
+  ul, ol {
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  /* Links */
+  a {
+    color: #2980b9;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Forms */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  form label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="email"] {
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 5px;
+  }
+  
+  /* Radio & Checkbox */
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 8px;
+  }
+  
+  /* Images and iframes */
+  iframe {
+    margin-top: 10px;
+    border: none;
+    border-radius: 12px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  footer a {
+    color: #1abc9c;
+  }
+  
+  footer h5 {
+    margin-top: 15px;
+    font-weight: normal;
+  }
+  
